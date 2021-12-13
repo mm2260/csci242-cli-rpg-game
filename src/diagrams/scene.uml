@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="386.0">game.scenes.Battle</node>
+    <node x="0.0" y="542.0">game.core.Renderer</node>
+    <node x="303.0" y="412.0">game.scenes.Alert</node>
+    <node x="82.75" y="0.0">game.core.Scene</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="game.scenes.Battle" target="game.core.Scene">
+      <point x="0.0" y="-55.5" />
+      <point x="141.5" y="361.0" />
+      <point x="194.25" y="361.0" />
+      <point x="-111.5" y="168.0" />
+    </edge>
+    <edge source="game.scenes.Alert" target="game.core.Scene">
+      <point x="0.0" y="-29.5" />
+      <point x="470.0" y="361.0" />
+      <point x="417.25" y="361.0" />
+      <point x="111.5" y="168.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="463.0" y="225.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

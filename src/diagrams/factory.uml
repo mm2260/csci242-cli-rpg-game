@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="734.3333333333333" y="508.0">game.characters.heroes.melee.Knight</node>
+    <node x="267.11111111111114" y="590.0">game.characters.heroes.HeroFactory</node>
+    <node x="576.3333333333333" y="508.0">game.characters.heroes.melee.Berserker</node>
+    <node x="336.0" y="508.0">game.characters.heroes.casters.Healer</node>
+    <node x="178.0" y="508.0">game.characters.heroes.casters.Enchanter</node>
+    <node x="169.0120851370852" y="364.0">game.characters.Caster</node>
+    <node x="532.0990259740261" y="376.5">game.characters.Melee</node>
+    <node x="348.5" y="0.0">game.characters.Hero</node>
+    <node x="0.0" y="508.0">game.characters.heroes.casters.Necromancer</node>
+    <node x="465.0" y="508.0">game.characters.heroes.melee.Tank</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="game.characters.heroes.casters.Necromancer" target="game.characters.Caster">
+      <point x="52.66666666666663" y="-16.0" />
+      <point x="131.66666666666663" y="488.0" />
+      <point x="217.5120851370852" y="488.0" />
+      <point x="-48.5" y="42.0" />
+    </edge>
+    <edge source="game.characters.heroes.HeroFactory" target="game.characters.heroes.casters.Enchanter">
+      <point x="-107.71428571428572" y="-29.5" />
+      <point x="347.8968253968254" y="560.0" />
+      <point x="247.0" y="560.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="game.characters.heroes.casters.Enchanter" target="game.characters.Hero">
+      <point x="-46.0" y="-16.0" />
+      <point x="201.0" y="468.0" />
+      <point x="158.51208513708514" y="468.0" />
+      <point x="158.51208513708514" y="314.0" />
+      <point x="377.4090909090909" y="314.0" />
+      <point x="-77.09090909090912" y="142.0" />
+    </edge>
+    <edge source="game.characters.heroes.melee.Knight" target="game.characters.Hero">
+      <point x="36.0" y="-16.0" />
+      <point x="824.3333333333333" y="488.0" />
+      <point x="798.1787518037518" y="488.0" />
+      <point x="798.1787518037518" y="304.0" />
+      <point x="550.8636363636364" y="304.0" />
+      <point x="96.36363636363637" y="142.0" />
+    </edge>
+    <edge source="game.characters.Melee" target="game.characters.Hero">
+      <point x="-48.5" y="-29.5" />
+      <point x="580.5990259740261" y="334.0" />
+      <point x="493.04545454545456" y="334.0" />
+      <point x="38.54545454545456" y="142.0" />
+    </edge>
+    <edge source="game.characters.heroes.HeroFactory" target="game.characters.heroes.casters.Necromancer">
+      <point x="-161.57142857142856" y="-29.5" />
+      <point x="294.0396825396826" y="570.0" />
+      <point x="79.0" y="570.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="game.characters.heroes.casters.Healer" target="game.characters.Caster">
+      <point x="0.0" y="-16.0" />
+      <point x="390.0" y="478.0" />
+      <point x="346.84541847041856" y="478.0" />
+      <point x="80.83333333333337" y="42.0" />
+    </edge>
+    <edge source="game.characters.heroes.melee.Tank" target="game.characters.Melee">
+      <point x="0.0" y="-16.0" />
+      <point x="509.0" y="478.0" />
+      <point x="548.2656926406927" y="478.0" />
+      <point x="-80.83333333333334" y="29.5" />
+    </edge>
+    <edge source="game.characters.heroes.HeroFactory" target="game.characters.Hero">
+      <point x="0.0" y="-29.5" />
+      <point x="455.61111111111114" y="570.0" />
+      <point x="454.5" y="570.0" />
+      <point x="0.0" y="142.0" />
+    </edge>
+    <edge source="game.characters.heroes.melee.Knight" target="game.characters.Melee">
+      <point x="-36.0" y="-16.0" />
+      <point x="752.3333333333333" y="478.0" />
+      <point x="677.5990259740261" y="478.0" />
+      <point x="48.5" y="29.5" />
+    </edge>
+    <edge source="game.characters.heroes.casters.Enchanter" target="game.characters.Caster">
+      <point x="46.0" y="-16.0" />
+      <point x="293.0" y="488.0" />
+      <point x="282.1787518037518" y="488.0" />
+      <point x="16.16666666666663" y="42.0" />
+    </edge>
+    <edge source="game.characters.heroes.melee.Berserker" target="game.characters.Hero">
+      <point x="46.0" y="-16.0" />
+      <point x="691.3333333333333" y="488.0" />
+      <point x="736.5990259740261" y="488.0" />
+      <point x="736.5990259740261" y="314.0" />
+      <point x="531.5909090909091" y="314.0" />
+      <point x="77.09090909090912" y="142.0" />
+    </edge>
+    <edge source="game.characters.heroes.HeroFactory" target="game.characters.heroes.melee.Berserker">
+      <point x="107.71428571428567" y="-29.5" />
+      <point x="563.3253968253969" y="560.0" />
+      <point x="645.3333333333333" y="560.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="game.characters.heroes.HeroFactory" target="game.characters.heroes.melee.Knight">
+      <point x="161.57142857142856" y="-29.5" />
+      <point x="617.1825396825398" y="570.0" />
+      <point x="788.3333333333333" y="570.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="game.characters.heroes.melee.Berserker" target="game.characters.Melee">
+      <point x="0.0" y="-16.0" />
+      <point x="16.166666666666657" y="29.5" />
+    </edge>
+    <edge source="game.characters.heroes.casters.Necromancer" target="game.characters.Hero">
+      <point x="-52.66666666666663" y="-16.0" />
+      <point x="26.33333333333337" y="488.0" />
+      <point x="61.93235930735932" y="488.0" />
+      <point x="61.93235930735932" y="304.0" />
+      <point x="358.1363636363636" y="304.0" />
+      <point x="-96.36363636363637" y="142.0" />
+    </edge>
+    <edge source="game.characters.heroes.melee.Tank" target="game.characters.Hero">
+      <point x="-29.333333333333314" y="-16.0" />
+      <point x="479.6666666666667" y="488.0" />
+      <point x="500.6823593073593" y="488.0" />
+      <point x="500.6823593073593" y="344.0" />
+      <point x="473.77272727272725" y="344.0" />
+      <point x="19.272727272727252" y="142.0" />
+    </edge>
+    <edge source="game.characters.Caster" target="game.characters.Hero">
+      <point x="48.5" y="-42.0" />
+      <point x="314.5120851370852" y="334.0" />
+      <point x="415.95454545454544" y="334.0" />
+      <point x="-38.54545454545456" y="142.0" />
+    </edge>
+    <edge source="game.characters.heroes.casters.Healer" target="game.characters.Hero">
+      <point x="36.0" y="-16.0" />
+      <point x="426.0" y="488.0" />
+      <point x="407.76208513708514" y="488.0" />
+      <point x="407.76208513708514" y="344.0" />
+      <point x="435.22727272727275" y="344.0" />
+      <point x="-19.272727272727252" y="142.0" />
+    </edge>
+    <edge source="game.characters.heroes.HeroFactory" target="game.characters.heroes.casters.Healer">
+      <point x="-53.85714285714289" y="-29.5" />
+      <point x="401.75396825396825" y="570.0" />
+      <point x="390.0" y="570.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="game.characters.heroes.HeroFactory" target="game.characters.heroes.melee.Tank">
+      <point x="53.85714285714289" y="-29.5" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="570.7682595182594" y="431.6995920745921" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

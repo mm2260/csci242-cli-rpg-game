@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="508.0">game.characters.heroes.HeroFactory</node>
+    <node x="303.0" y="329.0">game.HeroStorm</node>
+    <node x="257.0" y="0.0">game.core.Utils</node>
+    <node x="422.0" y="508.0">game.core.Renderer</node>
+    <node x="0.0" y="329.0">game.core.Party</node>
+    <node x="0.0" y="0.0">game.characters.Hero</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="739.0634920634919" y="562.8452380952381" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
